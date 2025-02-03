@@ -1,6 +1,6 @@
-# LS-RP Turfmap
+# LunarPride Roleplay Turfmap
 
-Turfmap of LS-RP. It may have some minor differences compared to the original codes.
+Turfmap of LunarPride Roleplay. Originated from LS-RP Turfmap by ulasbayraktar / asapdeveloper
 
 ## How can i add Polygon?
 
