@@ -68,7 +68,7 @@
 	bottom: 0;
 	right: 0;
 	color: white;
-	background: black;
+	background-color: rgba(0, 0, 0, 0.6); 
 	opacity: 0.9;
 	width: 270px;
 	padding: 5px;
@@ -78,6 +78,42 @@
 
 #panel li{
 	margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    #viewport {
+        flex: 1;
+        width: 100%;
+    }
+
+    #panel {
+        width: auto;
+        max-width: 600px;
+        height: auto;
+        bottom: 0;
+        top: auto;
+        left: 0;
+        right: 0;
+        padding: 10px;
+		background-color: rgba(0, 0, 0, 0.6); 
+    }
+
+    #panel_content {
+        padding: 10px;
+    }
+
+    #panel h1, #panel h2 {
+        font-size: 1.2em;
+    }
+
+    #factlist {
+        padding: 0;
+        list-style: none;
+    }
+
+    #factlist li {
+        margin-bottom: 10px;
+    }
 }
 
 .fact{

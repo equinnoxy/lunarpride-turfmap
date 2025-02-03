@@ -63,13 +63,13 @@ function RefreshPolygonList(){
 $(document).on("click", ".fact", function(){
     var fid = $(this).children(".factid").text();
     selectedFaction = fid;
-    $(".fact").css("background-color", "black");
-    $(this).css("background-color", "#555");
+    $(".fact").css("background-color", "rgba(0, 0, 0, 0.0)");
+    $(this).css("background-color", "rgba(0, 0, 0, 0.0)");
 });
 
 $("#addfact_color").keyup(function(){
     $("#previewCol").css("background-color", "#" + $(this).val());
-})
+});
 
 
 LoadFactions();
