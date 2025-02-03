@@ -20,7 +20,7 @@
 	width: 6000px;
 	height: 6000px;
 	overflow: hidden;
-	background: url('./images/map.jpg') no-repeat;
+	background: url('../images/map.jpg') no-repeat;
 	background-size: 6000px 6000px;
 }
 #_mapa {
